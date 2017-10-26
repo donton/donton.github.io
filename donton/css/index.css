@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 6.25em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.text {
+  float: left;
+  width: 56%;
+  min-height: 121px;
+  margin: 203px 0 0 22%;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.text span {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.text span:hover {
+  background-color: transparent;
+  color: rgb(0, 55, 252);
+}
