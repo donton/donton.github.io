@@ -1,21 +1,46 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 400 6.25em/1.38 Helvetica;
+  font: 700 6.25em/1.38 Montserrat;
   color: rgb(0, 0, 0);
+}
+
+.container {
+  position: relative;
+  float: left;
+  width: 42.4166666666%;
+  height: 140px;
+  margin: 200px 0 0 28.83333%;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 41px;
+  width: 57px;
+  height: auto;
+  overflow: hidden;
 }
 
 .text {
-  float: left;
-  width: 56%;
-  min-height: 121px;
-  margin: 203px 0 0 22%;
+  position: absolute;
+  top: 0;
+  left: -0.0798133596%;
+  z-index: 2;
+  width: 100%;
+  min-height: 140px;
   font-size: 1em;
   text-align: center;
+  letter-spacing: -4px;
   color: rgb(0, 0, 0);
 }
 
-.text:hover {
-  background-color: rgba(0, 0, 0, 0);
+.image-1 {
+  left: 20.7852406679%;
+  z-index: 1;
+}
+
+.image-2 {
+  left: 67.8137278978%;
 }
 
 .text span {
@@ -29,11 +54,11 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: transparent;
-  font-family: Montserrat;
+  background-color: rgb(255, 255, 255);
+  font-family: inherit;
   font-style: inherit;
   font-size: inherit;
-  font-weight: 700;
+  font-weight: inherit;
   text-transform: inherit;
   text-decoration: inherit;
   letter-spacing: inherit;
@@ -45,7 +70,9 @@ body {
   white-space: normal;
 }
 
+.text span:active,
+.text span:focus,
 .text span:hover {
-  background-color: transparent;
-  color: rgb(74, 255, 158); 
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(74, 255, 158);
 }
