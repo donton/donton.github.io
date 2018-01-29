@@ -1804,7 +1804,7 @@
 
 .heading-13 {
   margin-top: 17px;
-  font-family: Cabin, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #ff6f31;
   font-size: 23px;
   font-style: italic;
@@ -3530,10 +3530,10 @@
     height: 150px;
   }
   .image-9 {
-    width: 12vh;
+    width: 15vh;
   }
   .image-9.mahlzeit-image {
-    width: 27vh;
+    width: 30vh;
   }
   .project-h2.ua.concl {
     margin-top: 7px;
