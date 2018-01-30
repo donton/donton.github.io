@@ -197,12 +197,16 @@
 }
 
 .hoverimage.aurora-logo {
+  position: relative;
+  z-index: 1;
   min-height: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .hoverimage.wingspan-image {
+  position: relative;
+  z-index: 4;
   padding-top: 8px;
   padding-bottom: 7px;
 }
@@ -228,6 +232,7 @@
 }
 
 .link-block-2.work-small-link-block.wingspan-logo {
+  position: relative;
   background-image: -webkit-linear-gradient(270deg, #ffdd4c, #ffdd4c);
   background-image: linear-gradient(180deg, #ffdd4c, #ffdd4c);
   cursor: default;
@@ -268,6 +273,7 @@
 }
 
 .link-block-3.aurora-link-block {
+  position: relative;
   cursor: default;
 }
 
@@ -2098,6 +2104,17 @@
 
 .image-47 {
   display: none;
+}
+
+.div-block-56 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+
+.image-48 {
+  height: 100%;
 }
 
 @media (max-width: 991px) {
